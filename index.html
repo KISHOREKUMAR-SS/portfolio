@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kishore Kumar SS - Portfolio</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- ===== HEADER ===== -->
+  <header class="bg-white shadow fixed top-0 left-0 w-full z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-600">Kishore Kumar SS</h1>
+      <nav class="space-x-6 hidden md:block">
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#education" class="hover:text-blue-600">Education</a>
+        <a href="#projects" class="hover:text-blue-600">Projects</a>
+        <a href="#skills" class="hover:text-blue-600">Skills</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="pt-24">
+
+    <!-- ===== HERO SECTION ===== -->
+    <section id="home" class="text-center py-20 bg-gradient-to-r from-blue-600 to-indigo-600 text-white">
+      <h2 class="text-4xl font-bold mb-4">Hello, I'm Kishore Kumar SS</h2>
+      <p class="text-lg max-w-2xl mx-auto">
+        Dedicated and adaptable Computer Science Engineering student with a strong work ethic, 
+        eager to learn and grow through hands-on experience and internships.
+      </p>
+      <div class="mt-8">
+        <a href="#contact" class="bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg hover:bg-gray-100">Contact Me</a>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section id="about" class="max-w-5xl mx-auto px-6 py-20">
+      <h2 class="text-3xl font-bold text-center mb-8 text-blue-600">About Me</h2>
+      <p class="text-lg text-gray-700 leading-relaxed text-center">
+        I am a proactive and enthusiastic engineering student with a passion for technology and innovation. 
+        I enjoy solving complex problems and developing efficient, user-friendly software solutions. 
+        I strive to continuously improve my technical and interpersonal skills.
+      </p>
+    </section>
+
+    <!-- ===== EDUCATION SECTION ===== -->
+    <section id="education" class="bg-gray-100 py-20">
+      <div class="max-w-5xl mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center mb-8 text-blue-600">Education</h2>
+
+        <div class="space-y-6">
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">Bachelor of Engineering in Computer Science and Engineering</h3>
+            <p class="text-gray-600">K. Ramakrishnan College of Engineering, Trichy</p>
+            <p class="text-gray-500">Pursuing Second Year (2023 - Present)</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold">Higher Secondary</h3>
+            <p class="text-gray-600">Bharathi Vidhyalaya, 2023</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="max-w-6xl mx-auto px-6 py-20">
+      <h2 class="text-3xl font-bold text-center mb-12 text-blue-600">Projects</h2>
+
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Project 1 -->
+        <div class="bg-white p-6 rounded-lg shadow hover:-translate-y-1 transition">
+          <h3 class="text-2xl font-semibold mb-3">Fitness Tracker in Python</h3>
+          <p class="text-gray-700 mb-4">
+            Developed a comprehensive fitness tracker using Python, designed to monitor and record 
+            physical activities and health metrics. Implemented user authentication, activity logging, 
+            and data visualization using Pandas, Matplotlib, and SQLite for secure data storage.
+          </p>
+          <p class="text-sm text-gray-500">Tech Used: Python, SQLite, Pandas, Tkinter</p>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-white p-6 rounded-lg shadow hover:-translate-y-1 transition">
+          <h3 class="text-2xl font-semibold mb-3">Real-Time Task Scheduler System in C</h3>
+          <p class="text-gray-700 mb-4">
+            Designed and implemented a real-time task scheduler in C using advanced data structures 
+            like priority queues and linked lists. Ensured efficient task management and synchronization 
+            for optimal performance in concurrent environments.
+          </p>
+          <p class="text-sm text-gray-500">Tech Used: C, Data Structures, OS Concepts</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section id="skills" class="bg-gray-100 py-20">
+      <div class="max-w-5xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold mb-12 text-blue-600">Skills</h2>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold text-blue-600 mb-2">C Programming</h3>
+            <p class="text-gray-600">Proficient in writing efficient and structured C programs.</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold text-blue-600 mb-2">Python</h3>
+            <p class="text-gray-600">Experience with Python libraries for data analysis and GUI apps.</p>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-xl font-semibold text-blue-600 mb-2">Unix/Linux</h3>
+            <p class="text-gray-600">Knowledgeable in Unix/Linux systems and command-line tools.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="max-w-5xl mx-auto px-6 py-20">
+      <h2 class="text-3xl font-bold text-center mb-8 text-blue-600">Contact</h2>
+
+      <div class="text-center space-y-4">
+        <p><strong>Email:</strong> <a href="mailto:kishorekumarss28@gmail.com" class="text-blue-600 hover:underline">kishorekumarss28@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+917904113495" class="text-blue-600 hover:underline">+91 7904113495</a></p>
+        <p><strong>Location:</strong> Namakkal, Tamil Nadu</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/kishore-kumar-b023aa2a4" class="text-blue-600 hover:underline" target="_blank">Kishore Kumar</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="bg-gray-900 text-white py-6 text-center">
+    <p>&copy; 2025 Kishore Kumar SS. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
